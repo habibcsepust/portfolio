@@ -6,64 +6,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <style>
-        .container{
-            background-color: lightblue;
-        }
-        div{
-            height: 100px;
-            width: 100px;
-            background-color: gainsboro;
-        }
-        #first{
-            background-color: forestgreen;
-        }
-        #second{
-            background-color: greenyellow;
-            /* position: static; */
-            /* top: 20px; */
-            /* By default ja thake tai */
-
-            position: relative;
-            top: 20px;
-            /* Upor hote 20px khali korbe thikoi but ei div er porer div er upor 20px upore uthe jabe */
-
-
-            /* position: absolute;   
-            left: 50px;              */
-            /* absolutely se left hote 100px sore geche and sei 50px nijer jaigata khali kore diche */
-
-            /* position: fixed;    */
-            /* left: 100px;              */
-            /* Ei div ta ek jagai sticky hoye thakbe */
-        }
-        #third{
-            background-color: hotpink;
-        }
-    </style>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <section>
-        <h3>CSS Position</h3>
-    </section>
-    <section class="container">
-        <div id="first"></div>
-        <div id="second"></div>
-        <div id="third"></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        
-    </section>
+
+
+    <nav class="navbar navbar-expand-sm bg-light cssClass">
+        <img src="images/habib.jpg" alt="" width="50px;" height="55px;">
+        <h3>Md. Habibur Rahman</h3>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">
+                  Home
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  About
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Contacts
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Skill
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="home">
+      <div class="row">
+        <div class="col-sm-9"></div>
+        <div class="col-sm-2 weathe">
+          <img src="images/weather.png" alt="">
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 designation">
+          <h1>I'm a Software Engineer using platform on dot net framework.</h1><br><br>
+          <p>Hi! My name is Md. Habibur Rahman. Welcome to my personal page that I’ve designed to showcase my skills and expertise that I’ve accumulated over <br>the year.</p>
+        </div>
+        <div class="col-sm-3"></div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-2 weathe">
+          <img src="images/weather.png" alt="">
+        </div>
+      </div>
+   </div>
+
+
+  <div id="about">
+    <div class="container cssCont">
+      <div class="row">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-2 aboutme">
+            About me <br> .....
+        </div>
+        <div class="col-sm-5"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 img">
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                  <img src="images/habib.jpg" class="rounded-circle" alt="Circle Image" height="300px" width="300px">
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-sm-6 description">
+          <p>I like to call myself “a passionate computer science and Engineering thinking & Software development”.</p>
+
+          <p>I'm interested to learn new tools and technology as a developer to developed my skill and mindset. </p>
+          <hr> 
+          <p>Name: Md. Habibur Rahman</p>
+          <hr> 
+          <p>Address: Panthpath Signal, Kathal bagan, Dhaka</p>
+          <hr> 
+          <p>Phone: 01750752424</p>
+          <hr>
+          <p>Email: habibcsepust@gmail.com</p>
+          <hr>
+          <p class="cv">
+            <a href="CV/Md. Habibur Rahman.docx" download="">
+                <button class="cv-button">Download CV</button>
+            </a>
+        </p>
+        </div>
+      </div>
+    </div>
+   </div>
+
     
     
+    
+
+
+
+
+<script src="bootstrap/jquery.min.js"></script>
+<script src="bootstrap/popper.min.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
 </body>
 </html>

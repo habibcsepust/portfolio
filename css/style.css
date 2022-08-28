@@ -1,0 +1,64 @@
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    border: 1px solid #409291;
+    padding: 27px;
+    text-align: center;
+}
+
+.cssClass{
+    height: 94px;
+    background-color: #40868b!important;
+}
+
+.cssClass h3{
+   margin-left: 25px;
+   color: #ffff;
+}
+
+.cssClass li a{
+    color: #ffff;
+    font-weight: bold;
+}
+
+.designation h1 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+.designation p {
+    color: gray;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#about{
+    background-color: #409291;
+}
+
+.aboutme{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: #ffff;
+}
+
+.description{
+    color: #ffff;
+}
+
+.description p{
+    font-size: 18px;
+}
+.cssCont{
+    padding: 25px;
+}
+
+.description .cv a{
+    background-color: black;
+    color: #ffff;
+    cursor: hand (a pointing hand);
+}
